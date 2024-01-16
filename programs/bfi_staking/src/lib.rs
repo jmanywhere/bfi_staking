@@ -4,7 +4,7 @@ use anchor_spl::{
     token::{mint_to, transfer, Mint, MintTo, Token, TokenAccount, Transfer},
 };
 use solana_program::clock::Clock;
-declare_id!("BgaUuJPsfJEfJo3XYmrJGMxqSvVVwu6MmwQob8c3QgvW");
+declare_id!("3gbCKLUwbRTeGKP12jvPFDP8H3jWPVgAeitrMG92k4KH");
 
 pub mod constants {
     pub const VAULT_SEED: &[u8] = b"vault";

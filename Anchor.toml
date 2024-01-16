@@ -5,13 +5,16 @@ seeds = false
 skip-lint = false
 
 [programs.localnet]
-bfi_staking = "BgaUuJPsfJEfJo3XYmrJGMxqSvVVwu6MmwQob8c3QgvW"
+bfi_staking = "3gbCKLUwbRTeGKP12jvPFDP8H3jWPVgAeitrMG92k4KH"
+
+[programs.mainnet]
+bfi_staking = "3gbCKLUwbRTeGKP12jvPFDP8H3jWPVgAeitrMG92k4KH"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Devnet"
+cluster = "mainnet"
 wallet = "/Users/jmf/.config/solana/id.json"
 
 [scripts]
